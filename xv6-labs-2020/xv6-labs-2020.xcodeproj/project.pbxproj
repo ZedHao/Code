@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		1D9BF80A2570E99B0096A111 /* .dir-locals.el */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".dir-locals.el"; sourceTree = "<group>"; };
+		1D9BF80B2570E99B0096A111 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1D9BF80C2570E99B0096A111 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		1D9BF80D2570E99B0096A111 /* mkfs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mkfs; sourceTree = "<group>"; };
+		1D9BF80E2570E99B0096A111 /* user */ = {isa = PBXFileReference; lastKnownFileType = folder; path = user; sourceTree = "<group>"; };
+		1D9BF80F2570E99B0096A111 /* gradelib.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = gradelib.py; sourceTree = "<group>"; };
+		1D9BF8102570E99B0096A111 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		1D9BF8112570E99B0096A111 /* .editorconfig */ = {isa = PBXFileReference; lastKnownFileType = text; path = .editorconfig; sourceTree = "<group>"; };
+		1D9BF8122570E99B0096A111 /* .gdbinit.tmpl-riscv */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".gdbinit.tmpl-riscv"; sourceTree = "<group>"; };
+		1D9BF8132570E99B0096A111 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1D9BF8142570E99B0096A111 /* grade-lab-util */ = {isa = PBXFileReference; lastKnownFileType = text; path = "grade-lab-util"; sourceTree = "<group>"; };
+		1D9BF8152570E99B0096A111 /* .git */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .git; sourceTree = "<group>"; };
+		1D9BF8162570E99B0096A111 /* conf */ = {isa = PBXFileReference; lastKnownFileType = folder; path = conf; sourceTree = "<group>"; };
+		1D9BF8172570E99B0096A111 /* kernel */ = {isa = PBXFileReference; lastKnownFileType = folder; path = kernel; sourceTree = "<group>"; };
+		1D9BF81C2570EA0F0096A111 /* xv6-labs-2020 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "xv6-labs-2020"; sourceTree = "<group>"; };
+		1D9BF81E2570EA4D0096A111 /* xv6-labs-2020.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "xv6-labs-2020.xcodeproj"; sourceTree = "<group>"; };
+		1D9BF8212570EA4D0096A111 /* .dir-locals.el */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".dir-locals.el"; sourceTree = "<group>"; };
+		1D9BF8222570EA4D0096A111 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1D9BF8232570EA4D0096A111 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		1D9BF8252570EA4D0096A111 /* mkfs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mkfs.c; sourceTree = "<group>"; };
+		1D9BF8272570EA4D0096A111 /* printf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = printf.c; sourceTree = "<group>"; };
+		1D9BF8282570EA4D0096A111 /* xargstest.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = xargstest.sh; sourceTree = "<group>"; };
+		1D9BF8292570EA4D0096A111 /* forktest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = forktest.c; sourceTree = "<group>"; };
+		1D9BF82A2570EA4D0096A111 /* ls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ls.c; sourceTree = "<group>"; };
+		1D9BF82B2570EA4D0096A111 /* init.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = init.c; sourceTree = "<group>"; };
+		1D9BF82C2570EA4D0096A111 /* rm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rm.c; sourceTree = "<group>"; };
+		1D9BF82D2570EA4D0096A111 /* cat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cat.c; sourceTree = "<group>"; };
+		1D9BF82E2570EA4D0096A111 /* wc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wc.c; sourceTree = "<group>"; };
+		1D9BF82F2570EA4D0096A111 /* umalloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = umalloc.c; sourceTree = "<group>"; };
+		1D9BF8302570EA4D0096A111 /* grind.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = grind.c; sourceTree = "<group>"; };
+		1D9BF8312570EA4D0096A111 /* zombie.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zombie.c; sourceTree = "<group>"; };
+		1D9BF8322570EA4D0096A111 /* mkdir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mkdir.c; sourceTree = "<group>"; };
+		1D9BF8332570EA4D0096A111 /* user.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = user.h; sourceTree = "<group>"; };
+		1D9BF8342570EA4D0096A111 /* kill.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kill.c; sourceTree = "<group>"; };
+		1D9BF8352570EA4D0096A111 /* sh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sh.c; sourceTree = "<group>"; };
+		1D9BF8362570EA4D0096A111 /* initcode.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = initcode.S; sourceTree = "<group>"; };
+		1D9BF8372570EA4D0096A111 /* ulib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ulib.c; sourceTree = "<group>"; };
+		1D9BF8382570EA4D0096A111 /* ln.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ln.c; sourceTree = "<group>"; };
+		1D9BF8392570EA4D0096A111 /* grep.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = grep.c; sourceTree = "<group>"; };
+		1D9BF83A2570EA4D0096A111 /* stressfs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stressfs.c; sourceTree = "<group>"; };
+		1D9BF83B2570EA4D0096A111 /* usys.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = usys.pl; sourceTree = "<group>"; };
+		1D9BF83C2570EA4D0096A111 /* usertests.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = usertests.c; sourceTree = "<group>"; };
+		1D9BF83D2570EA4D0096A111 /* echo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = echo.c; sourceTree = "<group>"; };
+		1D9BF83E2570EA4D0096A111 /* gradelib.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = gradelib.py; sourceTree = "<group>"; };
+		1D9BF83F2570EA4D0096A111 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		1D9BF8402570EA4D0096A111 /* .editorconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .editorconfig; sourceTree = "<group>"; };
+		1D9BF8412570EA4D0096A111 /* .gdbinit.tmpl-riscv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".gdbinit.tmpl-riscv"; sourceTree = "<group>"; };
+		1D9BF8422570EA4D0096A111 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1D9BF8432570EA4D0096A111 /* grade-lab-util */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "grade-lab-util"; sourceTree = "<group>"; };
+		1D9BF8452570EA4D0096A111 /* lab.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lab.mk; sourceTree = "<group>"; };
+		1D9BF8472570EA4D0096A111 /* swtch.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = swtch.S; sourceTree = "<group>"; };
+		1D9BF8482570EA4D0096A111 /* log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = log.c; sourceTree = "<group>"; };
+		1D9BF8492570EA4D0096A111 /* printf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = printf.c; sourceTree = "<group>"; };
+		1D9BF84A2570EA4D0096A111 /* spinlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spinlock.h; sourceTree = "<group>"; };
+		1D9BF84B2570EA4D0096A111 /* defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defs.h; sourceTree = "<group>"; };
+		1D9BF84C2570EA4D0096A111 /* ramdisk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ramdisk.c; sourceTree = "<group>"; };
+		1D9BF84D2570EA4D0096A111 /* sysproc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sysproc.c; sourceTree = "<group>"; };
+		1D9BF84E2570EA4D0096A111 /* pipe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pipe.c; sourceTree = "<group>"; };
+		1D9BF84F2570EA4D0096A111 /* proc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proc.h; sourceTree = "<group>"; };
+		1D9BF8502570EA4D0096A111 /* exec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = exec.c; sourceTree = "<group>"; };
+		1D9BF8512570EA4D0096A111 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		1D9BF8522570EA4D0096A111 /* vm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vm.c; sourceTree = "<group>"; };
+		1D9BF8532570EA4D0096A111 /* trampoline.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = trampoline.S; sourceTree = "<group>"; };
+		1D9BF8542570EA4D0096A111 /* fcntl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fcntl.h; sourceTree = "<group>"; };
+		1D9BF8552570EA4D0096A111 /* file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file.h; sourceTree = "<group>"; };
+		1D9BF8562570EA4D0096A111 /* stat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stat.h; sourceTree = "<group>"; };
+		1D9BF8572570EA4D0096A111 /* sysfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sysfile.c; sourceTree = "<group>"; };
+		1D9BF8582570EA4D0096A111 /* sleeplock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sleeplock.c; sourceTree = "<group>"; };
+		1D9BF8592570EA4D0096A111 /* date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = date.h; sourceTree = "<group>"; };
+		1D9BF85A2570EA4D0096A111 /* string.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = string.c; sourceTree = "<group>"; };
+		1D9BF85B2570EA4D0096A111 /* buf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buf.h; sourceTree = "<group>"; };
+		1D9BF85C2570EA4D0096A111 /* fs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fs.c; sourceTree = "<group>"; };
+		1D9BF85D2570EA4D0096A111 /* memlayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memlayout.h; sourceTree = "<group>"; };
+		1D9BF85E2570EA4D0096A111 /* kernel.ld */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kernel.ld; sourceTree = "<group>"; };
+		1D9BF85F2570EA4D0096A111 /* syscall.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = syscall.c; sourceTree = "<group>"; };
+		1D9BF8602570EA4D0096A111 /* elf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = elf.h; sourceTree = "<group>"; };
+		1D9BF8612570EA4D0096A111 /* entry.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = entry.S; sourceTree = "<group>"; };
+		1D9BF8622570EA4D0096A111 /* virtio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = virtio.h; sourceTree = "<group>"; };
+		1D9BF8632570EA4D0096A111 /* kernelvec.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = kernelvec.S; sourceTree = "<group>"; };
+		1D9BF8642570EA4D0096A111 /* trap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = trap.c; sourceTree = "<group>"; };
+		1D9BF8652570EA4D0096A111 /* console.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = console.c; sourceTree = "<group>"; };
+		1D9BF8662570EA4D0096A111 /* param.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = param.h; sourceTree = "<group>"; };
+		1D9BF8672570EA4D0096A111 /* spinlock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spinlock.c; sourceTree = "<group>"; };
+		1D9BF8682570EA4D0096A111 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		1D9BF8692570EA4D0096A111 /* bio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bio.c; sourceTree = "<group>"; };
+		1D9BF86A2570EA4D0096A111 /* plic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = plic.c; sourceTree = "<group>"; };
+		1D9BF86B2570EA4D0096A111 /* proc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = proc.c; sourceTree = "<group>"; };
+		1D9BF86C2570EA4D0096A111 /* riscv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = riscv.h; sourceTree = "<group>"; };
+		1D9BF86D2570EA4D0096A111 /* virtio_disk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = virtio_disk.c; sourceTree = "<group>"; };
+		1D9BF86E2570EA4D0096A111 /* sleeplock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sleeplock.h; sourceTree = "<group>"; };
+		1D9BF86F2570EA4D0096A111 /* file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = file.c; sourceTree = "<group>"; };
+		1D9BF8702570EA4D0096A111 /* syscall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = syscall.h; sourceTree = "<group>"; };
+		1D9BF8712570EA4D0096A111 /* kalloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kalloc.c; sourceTree = "<group>"; };
+		1D9BF8722570EA4D0096A111 /* start.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = start.c; sourceTree = "<group>"; };
+		1D9BF8732570EA4D0096A111 /* fs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fs.h; sourceTree = "<group>"; };
+		1D9BF8742570EA4D0096A111 /* uart.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uart.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1D9BF8042570E99B0096A111 = {
+			isa = PBXGroup;
+			children = (
+				1D9BF81C2570EA0F0096A111 /* xv6-labs-2020 */,
+				1D9BF81D2570EA4D0096A111 /* xv6-labs-2020 */,
+				1D9BF80A2570E99B0096A111 /* .dir-locals.el */,
+				1D9BF80B2570E99B0096A111 /* LICENSE */,
+				1D9BF80C2570E99B0096A111 /* Makefile */,
+				1D9BF80D2570E99B0096A111 /* mkfs */,
+				1D9BF80E2570E99B0096A111 /* user */,
+				1D9BF80F2570E99B0096A111 /* gradelib.py */,
+				1D9BF8102570E99B0096A111 /* README */,
+				1D9BF8112570E99B0096A111 /* .editorconfig */,
+				1D9BF8122570E99B0096A111 /* .gdbinit.tmpl-riscv */,
+				1D9BF8132570E99B0096A111 /* .gitignore */,
+				1D9BF8142570E99B0096A111 /* grade-lab-util */,
+				1D9BF8152570E99B0096A111 /* .git */,
+				1D9BF8162570E99B0096A111 /* conf */,
+				1D9BF8172570E99B0096A111 /* kernel */,
+			);
+			sourceTree = "<group>";
+		};
+		1D9BF81D2570EA4D0096A111 /* xv6-labs-2020 */ = {
+			isa = PBXGroup;
+			children = (
+				1D9BF81E2570EA4D0096A111 /* xv6-labs-2020.xcodeproj */,
+				1D9BF8212570EA4D0096A111 /* .dir-locals.el */,
+				1D9BF8222570EA4D0096A111 /* LICENSE */,
+				1D9BF8232570EA4D0096A111 /* Makefile */,
+				1D9BF8242570EA4D0096A111 /* mkfs */,
+				1D9BF8262570EA4D0096A111 /* user */,
+				1D9BF83E2570EA4D0096A111 /* gradelib.py */,
+				1D9BF83F2570EA4D0096A111 /* README */,
+				1D9BF8402570EA4D0096A111 /* .editorconfig */,
+				1D9BF8412570EA4D0096A111 /* .gdbinit.tmpl-riscv */,
+				1D9BF8422570EA4D0096A111 /* .gitignore */,
+				1D9BF8432570EA4D0096A111 /* grade-lab-util */,
+				1D9BF8442570EA4D0096A111 /* conf */,
+				1D9BF8462570EA4D0096A111 /* kernel */,
+			);
+			name = "xv6-labs-2020";
+			sourceTree = "<group>";
+		};
+		1D9BF81F2570EA4D0096A111 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D9BF8242570EA4D0096A111 /* mkfs */ = {
+			isa = PBXGroup;
+			children = (
+				1D9BF8252570EA4D0096A111 /* mkfs.c */,
+			);
+			path = mkfs;
+			sourceTree = "<group>";
+		};
+		1D9BF8262570EA4D0096A111 /* user */ = {
+			isa = PBXGroup;
+			children = (
+				1D9BF8272570EA4D0096A111 /* printf.c */,
+				1D9BF8282570EA4D0096A111 /* xargstest.sh */,
+				1D9BF8292570EA4D0096A111 /* forktest.c */,
+				1D9BF82A2570EA4D0096A111 /* ls.c */,
+				1D9BF82B2570EA4D0096A111 /* init.c */,
+				1D9BF82C2570EA4D0096A111 /* rm.c */,
+				1D9BF82D2570EA4D0096A111 /* cat.c */,
+				1D9BF82E2570EA4D0096A111 /* wc.c */,
+				1D9BF82F2570EA4D0096A111 /* umalloc.c */,
+				1D9BF8302570EA4D0096A111 /* grind.c */,
+				1D9BF8312570EA4D0096A111 /* zombie.c */,
+				1D9BF8322570EA4D0096A111 /* mkdir.c */,
+				1D9BF8332570EA4D0096A111 /* user.h */,
+				1D9BF8342570EA4D0096A111 /* kill.c */,
+				1D9BF8352570EA4D0096A111 /* sh.c */,
+				1D9BF8362570EA4D0096A111 /* initcode.S */,
+				1D9BF8372570EA4D0096A111 /* ulib.c */,
+				1D9BF8382570EA4D0096A111 /* ln.c */,
+				1D9BF8392570EA4D0096A111 /* grep.c */,
+				1D9BF83A2570EA4D0096A111 /* stressfs.c */,
+				1D9BF83B2570EA4D0096A111 /* usys.pl */,
+				1D9BF83C2570EA4D0096A111 /* usertests.c */,
+				1D9BF83D2570EA4D0096A111 /* echo.c */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		1D9BF8442570EA4D0096A111 /* conf */ = {
+			isa = PBXGroup;
+			children = (
+				1D9BF8452570EA4D0096A111 /* lab.mk */,
+			);
+			path = conf;
+			sourceTree = "<group>";
+		};
+		1D9BF8462570EA4D0096A111 /* kernel */ = {
+			isa = PBXGroup;
+			children = (
+				1D9BF8472570EA4D0096A111 /* swtch.S */,
+				1D9BF8482570EA4D0096A111 /* log.c */,
+				1D9BF8492570EA4D0096A111 /* printf.c */,
+				1D9BF84A2570EA4D0096A111 /* spinlock.h */,
+				1D9BF84B2570EA4D0096A111 /* defs.h */,
+				1D9BF84C2570EA4D0096A111 /* ramdisk.c */,
+				1D9BF84D2570EA4D0096A111 /* sysproc.c */,
+				1D9BF84E2570EA4D0096A111 /* pipe.c */,
+				1D9BF84F2570EA4D0096A111 /* proc.h */,
+				1D9BF8502570EA4D0096A111 /* exec.c */,
+				1D9BF8512570EA4D0096A111 /* types.h */,
+				1D9BF8522570EA4D0096A111 /* vm.c */,
+				1D9BF8532570EA4D0096A111 /* trampoline.S */,
+				1D9BF8542570EA4D0096A111 /* fcntl.h */,
+				1D9BF8552570EA4D0096A111 /* file.h */,
+				1D9BF8562570EA4D0096A111 /* stat.h */,
+				1D9BF8572570EA4D0096A111 /* sysfile.c */,
+				1D9BF8582570EA4D0096A111 /* sleeplock.c */,
+				1D9BF8592570EA4D0096A111 /* date.h */,
+				1D9BF85A2570EA4D0096A111 /* string.c */,
+				1D9BF85B2570EA4D0096A111 /* buf.h */,
+				1D9BF85C2570EA4D0096A111 /* fs.c */,
+				1D9BF85D2570EA4D0096A111 /* memlayout.h */,
+				1D9BF85E2570EA4D0096A111 /* kernel.ld */,
+				1D9BF85F2570EA4D0096A111 /* syscall.c */,
+				1D9BF8602570EA4D0096A111 /* elf.h */,
+				1D9BF8612570EA4D0096A111 /* entry.S */,
+				1D9BF8622570EA4D0096A111 /* virtio.h */,
+				1D9BF8632570EA4D0096A111 /* kernelvec.S */,
+				1D9BF8642570EA4D0096A111 /* trap.c */,
+				1D9BF8652570EA4D0096A111 /* console.c */,
+				1D9BF8662570EA4D0096A111 /* param.h */,
+				1D9BF8672570EA4D0096A111 /* spinlock.c */,
+				1D9BF8682570EA4D0096A111 /* main.c */,
+				1D9BF8692570EA4D0096A111 /* bio.c */,
+				1D9BF86A2570EA4D0096A111 /* plic.c */,
+				1D9BF86B2570EA4D0096A111 /* proc.c */,
+				1D9BF86C2570EA4D0096A111 /* riscv.h */,
+				1D9BF86D2570EA4D0096A111 /* virtio_disk.c */,
+				1D9BF86E2570EA4D0096A111 /* sleeplock.h */,
+				1D9BF86F2570EA4D0096A111 /* file.c */,
+				1D9BF8702570EA4D0096A111 /* syscall.h */,
+				1D9BF8712570EA4D0096A111 /* kalloc.c */,
+				1D9BF8722570EA4D0096A111 /* start.c */,
+				1D9BF8732570EA4D0096A111 /* fs.h */,
+				1D9BF8742570EA4D0096A111 /* uart.c */,
+			);
+			path = kernel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		1D9BF8092570E99B0096A111 /* xv6-labs-2020 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 1D9BF8182570E99B0096A111 /* Build configuration list for PBXLegacyTarget "xv6-labs-2020" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/huanghao/Documents/xv6-labs-2020";
+			dependencies = (
+			);
+			name = "xv6-labs-2020";
+			passBuildSettingsInEnvironment = 1;
+			productName = "xv6-labs-2020";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		1D9BF8052570E99B0096A111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1D9BF8082570E99B0096A111 /* Build configuration list for PBXProject "xv6-labs-2020" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D9BF8042570E99B0096A111;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1D9BF81F2570EA4D0096A111 /* Products */;
+					ProjectRef = 1D9BF81E2570EA4D0096A111 /* xv6-labs-2020.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D9BF8092570E99B0096A111 /* xv6-labs-2020 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		1D9BF8062570E99B0096A111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1D9BF8072570E99B0096A111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		1D9BF8192570E99B0096A111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "xv6-labs-2020";
+			};
+			name = Debug;
+		};
+		1D9BF81A2570E99B0096A111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "xv6-labs-2020";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D9BF8082570E99B0096A111 /* Build configuration list for PBXProject "xv6-labs-2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D9BF8062570E99B0096A111 /* Debug */,
+				1D9BF8072570E99B0096A111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D9BF8182570E99B0096A111 /* Build configuration list for PBXLegacyTarget "xv6-labs-2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D9BF8192570E99B0096A111 /* Debug */,
+				1D9BF81A2570E99B0096A111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D9BF8052570E99B0096A111 /* Project object */;
+}
